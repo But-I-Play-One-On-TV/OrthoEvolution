@@ -3,6 +3,7 @@ try:
 except Exception:
     from pypandoc.pandoc_download import download_pandoc
     download_pandoc()
+    import pypandoc
 
 
 from OrthoEvol.Tools.logit import LogIt
