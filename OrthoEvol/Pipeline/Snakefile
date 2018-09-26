@@ -8,10 +8,9 @@ Usage:
 
 """
 
-import csv
+import os
 
-from Bio import SearchIO
-from xml.etree.ElementTree import ParseError
+from OrthoEvol.Orthologs.Blast import OrthoBlastN, BaseBlastN
 
 rule run_blastn:
     """Run BLASTn against a given database and write the results to XML."""
