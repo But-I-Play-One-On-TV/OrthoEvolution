@@ -1,4 +1,5 @@
 ete3>=3.0.0b35
+pypandoc>=1.4
 pandas>=0.19.2
 openpyxl>=2.4.7
 pexpect==4.2.1
